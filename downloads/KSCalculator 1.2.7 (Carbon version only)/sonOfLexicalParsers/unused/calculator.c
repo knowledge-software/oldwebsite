@@ -1,0 +1,1 @@
+#include	"calculator.h"#include	"LexicalParser.h"#include	<string.h>voidcalculator( char* inString, char* outString, char europeanStandard ) {//	try {					Calculator	Calc( inString, europeanStandard );		Calc.Execute( outString );//		}//	catch(...) {//		strcpy( outString, "Real Bummer..." );//		}}

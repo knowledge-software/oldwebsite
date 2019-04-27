@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>cells</key>
+	<array>
+		<dict>
+			<key>column</key>
+			<integer>1</integer>
+			<key>row</key>
+			<integer>1</integer>
+			<key>stringValue</key>
+			<string>()PrgmsetFold(mechan) Custom  Title "Var"    Item "m1"    Item "m2"    Item "T"    Item "T1"    Item "T2"    Item "m3"    Item "µ"    Item "θ"    Item "τ"  Title "Kinetics"    Item "h=1/2 _g t^2"    Item "Δx=v0 t+1/2 a t^2"    Item "t=√(2 d/v)"    Item "2a*d=vf^2-vi^2"    Item "Iring=m*r^2"    Item "Idisk=1/2*m*r^2"    Item "Isph=2/5*m*r^2"  Title "Solve"    Item "solve("    Item " and "    Item "solve( and ,{a,T})"    Item "zeros(,t)"  Title "Unit"    Item "_m"    Item "_m/_s"    Item "_m/_s^2"    Item "_s"    Item "_kg"    Item "_N"    Item "_J"    Item "_W"  Title "Const"    Item "_g"    Item "_Gc"    Item "me=5.97624*_kg"    Item "ms=1.9930*_kg"  Title "Tool"    Item "ClrHome"    Item "NewProb"    Item "main\menu()" EndCustm CustmOnEndPrgm</string>
+		</dict>
+	</array>
+	<key>device name</key>
+	<string>menu</string>
+	<key>device type</key>
+	<string>TI-89</string>
+	<key>isProtected</key>
+	<false/>
+	<key>object type</key>
+	<string>Program</string>
+</dict>
+</plist>

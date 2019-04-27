@@ -1,0 +1,1 @@
+////  A collection of alerts and warnings to use on some pages.//function	popUpWarning(msg) {	alert(	"\n______________________________________\n\n" +			"                           There is a problem\n" +			"______________________________________\n\n" +			"                        " + msg + "\n"		);}	

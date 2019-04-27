@@ -1,0 +1,1 @@
+#pragma once#ifdef __cplusplus	extern "C" {#endif// C shell call for C++ routines.void	calculator( char* inString, char* outString );#ifdef __cplusplus	}#endif

@@ -1,0 +1,1 @@
+#pragma	once// This header contins the glue for the stub from a C call// to the C++ calling frame for an XCMD/XFCN routine.#include <HyperXCmd.h>voiddoXCMDPlusPlus( XCmdPtr paramPtr );

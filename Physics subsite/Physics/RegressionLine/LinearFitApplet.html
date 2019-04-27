@@ -1,0 +1,123 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html lang="en">
+<head>
+
+  <meta name="GENERATOR" content="Adobe PageMill 3.0 Mac">
+  <title>Regression Lines</title>
+
+
+  <meta name="keywords" content="statistics, regression, correlation, scatter plot, ecology, java, biology, applet">
+
+  <meta name="description" content="A java 1.1 applet that produces a scatter plot from data input by the user and calculates the regression line for the data.">
+
+</head>
+
+<body style="background-image: url(../media/DrCyclops.jpg); direction: ltr;">
+
+<h2 align="center">Scatter Plot and Regression Applet</h2>
+
+<p>You can create a fit to a set of data values typed into the x
+and y columns. If using Excel (not the best for scientific graphing) is
+not your cup of tea and you can't get the graphs from you calculator in
+a printed form then just use this applet and print the screen. If you
+are really clever you can capture an image of the screen and paste it
+into your lab report. Cool? You ain't seen nothin' yet! </p>
+
+<p>Suppose you want to "linearize" your data. Go on, suppose. For
+example: you have a list of distances a toy car has gone down the ramp
+and you have an equal number of time values associated with these
+distances. You surmise from your first raw attempt to chart the data
+(y~distance, x~time) that the curve is a quadratic. In order to
+"linearize" the graph and get it to fit a model like: d=1/2 a t<sup>2</sup>
+you need to develop a list of t<sup>2</sup> values. You
+don't actually need to do this with this applet. Simply type x^2 in the
+first box and the values will automatically be charted as the x
+coordinate squared. Give it a try.
+</p>
+
+<hr>
+<center><applet code="mathbeans.ScatterPlotApplet.class" archive="mathbeans.jar" height="500" width="800">
+</applet>
+</center>
+
+<hr>
+<table border="0" width="90%">
+
+  <tbody>
+
+    <tr valign="top">
+
+      <td>
+      <table width="75">
+
+        <tbody>
+
+          <tr>
+
+            <td align="center" bgcolor="white"><b>t</b></td>
+
+            <td align="center" bgcolor="white"><b>d</b></td>
+
+          </tr>
+
+          <tr>
+
+            <td align="right" bgcolor="white">1</td>
+
+            <td align="right" bgcolor="white">1</td>
+
+          </tr>
+
+          <tr>
+
+            <td align="right" bgcolor="white">2</td>
+
+            <td align="right" bgcolor="white">4</td>
+
+          </tr>
+
+          <tr>
+
+            <td align="right" bgcolor="white">3</td>
+
+            <td align="right" bgcolor="white">9</td>
+
+          </tr>
+
+          <tr>
+
+            <td align="right" bgcolor="white">4</td>
+
+            <td align="right" bgcolor="white">16</td>
+
+          </tr>
+
+          <tr>
+
+            <td align="right" bgcolor="white">5</td>
+
+            <td align="right" bgcolor="white">25</td>
+
+          </tr>
+
+        </tbody>
+      </table>
+
+      </td>
+
+      <td>Consider this trivial example. Enter these values into
+the x and y columns respectively. Type x in the first box under the
+graph and y in the second. After you "plot" the data you should see a
+typical quadratic. Notice that the line isn't a particularly good fit.
+      <p>Now type x^2 in the first box. When you plot the data
+now you should see a straight line.</p>
+
+      </td>
+
+    </tr>
+
+  </tbody>
+</table>
+
+</body>
+</html>

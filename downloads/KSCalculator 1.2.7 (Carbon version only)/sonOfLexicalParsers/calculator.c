@@ -1,0 +1,1 @@
+// C shell call for C++ routines.#include	"calculator.h"#include	"LR1LA.h"voidcalculator( char* inString, char* outString ) {					LR1LA	Calc(inString);		Calc.Compile(  );		Calc.Answer( outString );}
